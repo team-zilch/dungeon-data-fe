@@ -4,7 +4,7 @@ Project Name: Dungeon Data
 Developers: David Marchante, Kush Shrestha, Chaitanya Narukulla, William Fritts
 
 Description: 
-  This application will serve as a user hub for dungeon masters to be able to obtain the most up to date monster information on playing cards. The user will be able to enter their location and be given a listing of current events/news in their location. The user will be able to scroll through the monster compendium. 
+  This application will serve as a user hub for dungeon masters to be able to obtain the most recent monster information on playing cards. The user will be able to enter their location and be given a listing of current events/news in their location. The user will be able to scroll through the monster compendium. 
 
 Problem Domain:
   One of the big problems with card-based games is that as cards are updated, users are required to buy new cards in order to keep up to date with their monsters’ abilities. This application will solve that problem by pulling current information from the API and displaying up to date monster information in the form of digital cards which the user can flip through. The user will have the ability to favorite cards which can be their most frequently used/visited cards.
