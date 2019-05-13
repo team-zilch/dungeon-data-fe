@@ -1,27 +1,76 @@
-import React, {Component} from 'react';
-import david from '../images/David.png';
-import kush from '../images/Kush.png';
-import chai from '../images/Chai.png';
-import william from '../images/William.png';
+import React from 'react';
+import Who from './who';
 
-class AboutUs extends Component {
+class AboutUs extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      david: {
+        name: 'David',
+        description: 'lorem epsum',
+        image: require( "../images/David.png" ),
+      },
+      kush: {
+        name: 'Kush',
+        description: 'lorem epsum',
+        image: require( "../images/Kush.png" ),
+      },
+      chai: {
+        name: 'Chai',
+        description: 'lorem epsum',
+        image: require( "../images/Chai.png" ),
+      },
+      william: {
+        name: 'William',
+        description: 'lorem epsum',
+        image: require( "../images/William.png" ),
+      },
+    };
+  }
+
   render() {
     return (
-      <div>
-      <img src={david} alt="" width = "75px" />
-      <p>David Marchante</p>
-      
-      <img src={kush} alt="" width = "75px" />
-      <p>Kush Shrestha</p>
+      <React.Fragment>
+        
+        <div>
+          <Who 
+          name = {this.state.david.name}
+          description = {this.state.david.description}
+          image = {this.state.david.image}
+          />
+          <Who 
+          name = {this.state.kush.name}
+          description = {this.state.kush.description}
+          image = {this.state.kush.image}
+          />
+          <Who 
+          name = {this.state.chai.name}
+          description = {this.state.chai.description}
+          image = {this.state.chai.image}
+          />
+          <Who 
+          name = {this.state.william.name}
+          description = {this.state.william.description}
+          image = {this.state.william.image}
+          />
+        </div>
 
-      <img src={chai} alt="" width = "75px" />
-      <p>Chaitanya Narukulla</p>
+        <div>
+          <h3>What</h3>
+          <p>Lorem epsum</p>
+        </div>
 
-      <img src={william} alt="" width = "75px" />
-      <p>William Fritts</p>
-      </div>
+        <div>
+          <h4>Why</h4>
+          <p>Lorem epsum</p>
+        </div>
+
+      </React.Fragment>
     );
   }
-};
+}
 
 export default AboutUs;
+
