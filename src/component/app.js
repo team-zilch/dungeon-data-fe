@@ -8,7 +8,7 @@ import '../scss/core.scss'
 export default function App() {
   return (
     <Fragment>
-      <Header />
+      <Header/>
       <Hero />
       <AboutUs />
       <Footer />
