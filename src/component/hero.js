@@ -1,5 +1,4 @@
 import React, {Component, Fragment} from 'react';
-import hero from '../images/hero.jpg'
 
 export default class Hero extends Component {
   render () {
