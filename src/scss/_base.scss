@@ -1,34 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Crimson+Text|Forum|Metamorphous|Mirza|Slabo+27px|Stylish|UnifrakturCook:700');
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: $medieval-brown;
+  width: 100%;
+  margin: 0 auto;
 
-.stylish {
-  font-family: 'Stylish', sans-serif;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+  }
+
+  li {
+    margin-left: 15px;
+  }
+
+  h1 {
+    font-size: 49px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+  }
 }
 
-.slabo {
-  font-family: 'Slabo 27px', serif;
+body {
+  background-color: $medieval-yellow;
 }
 
-.crimson {
-  font-family: 'Crimson Text', serif;
-}
 
-.forum {
-  font-family: 'Forum', cursive;
+
+p {
+  font-size: 18px;
+  padding-bottom: 30px;
+  line-height: 30px;
+  width: 980px;
+  margin: 0 auto;
 }
 
 .cinzel {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: $font-header;
 }
 
-.mizra {
-
-  font-family: 'Mirza', cursive;
-}
-
-.metamorphous {
-  font-family: 'Metamorphous', cursive;
-}
-
-.unifrak {
-  font-family: 'UnifrakturCook', cursive;
+.montserrat {
+  font-family: $font-body;
 }
