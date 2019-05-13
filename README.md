@@ -15,13 +15,14 @@ User stories
     As a user, I'd like to be able to easily find information about the creators of the application.
     As a user, I'd like to be able to find game information in case I need to reference a rule and even learn about the game for the first time.
     As a user, I'd like to have live updated cards for the dungeon master to refer to during game play versus flipping through cards.
-    As a user, I’d like to know about current and upcoming events – google api for user location
     As a user, I'd like to be able to search for any card beyond the cards initially presented to me. 
-  Stretch Goal User Stories
+  Stretch Goal User Stories 
+    As a user, I’d like to know about current and upcoming events – google api for user location
     As a user, I'd like to be able to filter the cards by abilities or other monster details.
     As a user, I'd like to be able to sort the cards by monster. 
 
 Stretch goals
+  Current Events/news
   Sort
   Filter
   User stretch goal to have additional game stat information
