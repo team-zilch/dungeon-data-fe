@@ -1,9 +1,13 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: $medieval-brown;
+  // background-color: $medieval-brown;
+  background-image: radial-gradient($medieval-brown, black );
   width: 100%;
   margin: 0 auto;
+  height: 90px;
+  line-height: 100px;
+  color: $medieval-yellow;
 
   ul {
     display: flex;
@@ -12,18 +16,24 @@ header {
   }
 
   li {
-    margin-left: 15px;
+    font-family: $font-family-header;
+    margin-left: 50px;
+    font-size: $font-size-nav;
+    padding-top: 25px;
   }
 
   h1 {
-    font-size: 49px;
+    font-size: $font-size-header;
+    font-weight: bold;
     padding-bottom: 15px;
     margin-left: 30px;
+    padding-top: 15px;
   }
 }
 
 body {
   background-color: $medieval-yellow;
+  font-family: $font-family-body;
 }
 
 
@@ -37,9 +47,9 @@ p {
 }
 
 .cinzel {
-  font-family: $font-header;
+  font-family: $font-family-header;
 }
 
 .montserrat {
-  font-family: $font-body;
+  font-family: $font-family-body;
 }
