@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react';
+import '../scss/core.scss';
 
 export default function App() {
   return (
