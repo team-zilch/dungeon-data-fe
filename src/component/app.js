@@ -10,7 +10,6 @@ export default function App() {
     <Fragment>
         <Header/>
         <Main/>
-        <AboutUs/>
         <Footer/>
     </Fragment>
   );
