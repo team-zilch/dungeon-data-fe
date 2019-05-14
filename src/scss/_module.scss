@@ -56,3 +56,15 @@ header {
   color: $medieval-yellow;
   font-family: $font-family-header;
 }
+
+.monsterCard {
+  display: flex;
+  margin: 15px;
+  background-color: white;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.monsterCard:hover {
+  box-shadow: 0 16px 32px 0;
+}
