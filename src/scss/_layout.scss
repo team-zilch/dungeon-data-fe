@@ -6,14 +6,14 @@
 }
 
 .about-us {
-  max-width: 1400px;
+  width: 100%;
 }
 
 .about-us_who{
   display: flex;
   width: 100%;
-  margin: 0 30px;
-  justify-content: space-between;
+  // margin: 0 30px;
+  justify-content: space-around;
 }
 
 
