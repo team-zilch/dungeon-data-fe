@@ -6,7 +6,7 @@ class Who extends React.Component {
       <Fragment>
         <ul>
           <li><img src={this.props.image} alt="Creaters"/></li>
-          <li><h2>{this.props.name}</h2></li>
+          <li><h3>{this.props.name}</h3></li>
           <li><p>{this.props.description}</p></li>   
         </ul>
       </Fragment>

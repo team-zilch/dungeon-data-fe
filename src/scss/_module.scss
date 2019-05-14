@@ -33,9 +33,14 @@ header {
 }
 
 .hero-image_container {
+  height: 300px;
   width: 100%;
   margin: 0 auto;
   padding-top: 400px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
 }
 
 .hero-image_container img {

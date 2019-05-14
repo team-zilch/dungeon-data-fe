@@ -59,13 +59,13 @@ export default class AboutUs extends Component {
           </div>
         </div>
 
-        <div>
-          <h3>What</h3>
+        <div className="what">
+          <h2>What</h2>
           <p>Lorem epsum</p>
         </div>
 
-        <div>
-          <h4>Why</h4>
+        <div className="why">
+          <h2>Why</h2>
           <p>Lorem epsum</p>
         </div>
 
