@@ -61,12 +61,12 @@ export default class AboutUs extends Component {
 
         <div className="what">
           <h2>What</h2>
-          <p>Lorem epsum</p>
+          <p>This application will serve as a user hub for dungeon masters to be able to obtain the most up to date monster information on playing cards. The user will be able to scroll through the monster compendium and view basic information on any monster card.</p>
         </div>
 
         <div className="why">
           <h2>Why</h2>
-          <p>Lorem epsum</p>
+          <p>One of the big problems with card-based games is that as cards are updated, users are required to buy new cards in order to keep up to date with their monsters’ abilities. This application will solve that problem by pulling current information from the API and displaying up to date monster information in the form of digital cards which the user can 'flip' through.</p>
         </div>
 
       </Fragment>
