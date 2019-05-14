@@ -7,7 +7,20 @@ Kush Shrestha,
 Chaitanya Narukulla and 
 William Fritts
 
+<<<<<<< HEAD
+Version 1.0.1
+  Connect front-end with back-end server.
+  Implement front-end page routing.
+
+Version 1.0.0:
+  Set-up component architecture and did some basic styling for site.
+  Created Hero, and Hero
+  Deploy to Heroku and point DN to www.dungeondata.org
+
+Description: 
+=======
 ##Description: 
+>>>>>>> feature-fe
   This application will serve as a user hub for dungeon masters to be able to obtain the most up to date monster information on playing cards. The user will be able to enter their location and be given a listing of current events/news in their location. The user will be able to scroll through the monster compendium. 
 
 ##Problem Domain:
