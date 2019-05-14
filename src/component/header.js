@@ -1,4 +1,6 @@
 import React, {Component, Fragment} from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default class Header extends Component {
   render() {
@@ -6,13 +8,28 @@ export default class Header extends Component {
       <Fragment>
         <header>
           <div className="header-container">
-            <h1>Dungeon Data</h1>
+            <h1>
+              <Link to="/">
+                Dungeon Data
+              </Link>
+            </h1>
             <nav>
               <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>About Game</li>
-                <li>Monsters</li>
+                <li>
+                  <a href="#about-us">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <Link to="/monsters">
+                    Monsters
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about-game">
+                    About Game
+                  </Link>
+                </li>
               </ul>
             </nav>
           </div>
