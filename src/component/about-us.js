@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import Who from './who';
 
-class AboutUs extends Component {
+export default class AboutUs extends Component {
 
   constructor(props) {
     super(props);
@@ -33,7 +33,7 @@ class AboutUs extends Component {
   render() {
     return (
       <Fragment>
-        <div className="about-us">
+        <div className="about-us" id="about-us">
           <h2>About Us</h2>
           <div className="about-us_who">
             <Who 
@@ -73,6 +73,3 @@ class AboutUs extends Component {
     );
   }
 }
-
-export default AboutUs;
-

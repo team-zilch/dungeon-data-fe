@@ -29,3 +29,14 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: $medieval-yellow;
+}
+
+nav {
+
+  a:hover {
+    color: black;
+  }
+}
