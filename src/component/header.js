@@ -5,17 +5,17 @@ export default class Header extends Component {
     return (
       <Fragment>
         <header>
-          <h1 className="cinzel">
-            Dungeon Data
-          </h1>
-          <nav>
-            <ul>
-              <li>Home</li>
-              <li>About Us</li>
-              <li>About Game</li>
-              <li>Monsters</li>
-            </ul>
-          </nav>
+          <div className="header-container">
+            <h1>Dungeon Data</h1>
+            <nav>
+              <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>About Game</li>
+                <li>Monsters</li>
+              </ul>
+            </nav>
+          </div>
         </header>
       </Fragment>
     )

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Component, Fragment} from 'react';
 import Who from './who';
 
-class AboutUs extends React.Component {
+class AboutUs extends Component {
 
   constructor(props) {
     super(props);
@@ -32,29 +32,31 @@ class AboutUs extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
-        
-        <div>
-          <Who 
-          name = {this.state.david.name}
-          description = {this.state.david.description}
-          image = {this.state.david.image}
-          />
-          <Who 
-          name = {this.state.kush.name}
-          description = {this.state.kush.description}
-          image = {this.state.kush.image}
-          />
-          <Who 
-          name = {this.state.chai.name}
-          description = {this.state.chai.description}
-          image = {this.state.chai.image}
-          />
-          <Who 
-          name = {this.state.william.name}
-          description = {this.state.william.description}
-          image = {this.state.william.image}
-          />
+      <Fragment>
+        <div className="about-us">
+          <h2>About Us</h2>
+          <div className="about-us_who">
+            <Who 
+            name = {this.state.david.name}
+            description = {this.state.david.description}
+            image = {this.state.david.image}
+            />
+            <Who 
+            name = {this.state.kush.name}
+            description = {this.state.kush.description}
+            image = {this.state.kush.image}
+            />
+            <Who 
+            name = {this.state.chai.name}
+            description = {this.state.chai.description}
+            image = {this.state.chai.image}
+            />
+            <Who 
+            name = {this.state.william.name}
+            description = {this.state.william.description}
+            image = {this.state.william.image}
+            />
+          </div>
         </div>
 
         <div>
@@ -67,7 +69,7 @@ class AboutUs extends React.Component {
           <p>Lorem epsum</p>
         </div>
 
-      </React.Fragment>
+      </Fragment>
     );
   }
 }
