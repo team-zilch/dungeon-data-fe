@@ -1,0 +1,53 @@
+header {
+  h1 {
+    font-size: $font-size-header;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    font-family: $font-family-header;
+    font-size: $font-size-nav;
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+}
+
+.hero-image {
+  height: 700px;
+  width: 100%; 
+  background-image: url(../images/hero.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-image img {
+  opacity: .5;
+}
+
+.hero-image_container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 400px;
+}
+
+.hero-image_container img {
+  position: absolute;
+}
+
+.hero-image_container h1 {
+  position: absolute;
+  font-size: 215px;
+  opacity: .9;
+  margin-left: -75px;
+  // margin-top: 0px;
+  color: $medieval-yellow;
+  font-family: $font-family-header;
+}
