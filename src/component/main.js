@@ -5,13 +5,11 @@ import Monsters from './monsters.js';
 import AboutGame from './about-game.js';
 
 const Main = () => (
-  <main>
-    <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/monsters' component={Monsters}/>
-      <Route path='/about-game' component={AboutGame}/>
-    </Switch>
-  </main>
+  <Switch>
+    <Route exact path='/' component={Home}/>
+    <Route path='/monsters' component={Monsters}/>
+    <Route path='/about-game' component={AboutGame}/>
+  </Switch>
 )
 
 export default Main

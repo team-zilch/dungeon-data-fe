@@ -5,14 +5,23 @@
   margin: 0 30px;
 }
 
-.about-us {
-  width: 100%;
+.main-container {
+  max-width: 100%;
+  margin: 0 30px;
 }
 
-.about-us_who{
+.about-us, .what, .why {
+  width: 100%;
+  text-align: center;
+
+  h2 {
+    text-decoration: underline;
+  }
+}
+
+.about-us_who {
   display: flex;
   width: 100%;
-  // margin: 0 30px;
   justify-content: space-around;
 }
 
@@ -23,3 +32,38 @@
   margin: 0 30px;
 }
 
+.about-game {
+  max-width: 100%;
+  margin: 0 30px;
+  padding-bottom: 30px;
+
+  h2 {
+    text-decoration: underline;
+    text-align: center;
+  }
+}
+
+.about-game_main {
+  ul {
+    list-style-type: circle;
+  }
+}
+
+/* From Chris Coyer https://css-tricks.com/couple-takes-sticky-footer/ for sticky footer */
+// html, body {
+//   height: 100%;
+// }
+// body {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// main {
+//   flex: 1 0 auto;
+// }
+
+
+// footer {
+//   flex-shrink: 0;
+// }
+/* end of sticky footer code */
