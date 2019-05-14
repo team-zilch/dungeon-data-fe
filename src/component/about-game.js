@@ -10,10 +10,16 @@ export default class AboutGame extends Component {
 
           <p>The core of D&D is storytelling. You and your  friends tell a story together, guiding your  heroes through quests for treasure, battles with   deadly foes, daring rescues, courtly intrigue,  and much more. You can also explore the world of   Dungeons & Dragons through any of the novels  written by its fantasy authors, as well as   engaging board games and immersive video games.   All of these stories are part of D&D.</p>
 
+          <p>Reference: <a href="http://dnd.wizards.com/dungeons-and-dragons/what-is-dd">http://dnd.wizards.com/dungeons-and-dragons/what-is-dd</a></p>
+
           <h2>How to Play</h2>
           <p>Player must create a character. In (D&D), each character has a set of ability scores that make it unique. They roll a character by rolling dice, three six-sided dice for each ability, which gives a score of 3 to 18 for each one. To other stats that are important are Amor Class and Hit Points. These numbers affect how a character works in a range of classes, or types.</p>
           <p>After the stats are generated a plyaer can then decide on a fantasy race (Human, Dwarf, Elf, Gnome, etc.), a class (Fighter, Mage, Thief, Druid, etc.), and an alignment which dictates how a player character interacts with the world.
           </p>
+          <p>D&D uses six polyhedral dice, with four, six, eight, 10, 12 and 20 faces. These dice are central to D&D's game mechanics; they're what you use to figure out if what players trying to do fails or not.</p>
+          <p>When a player rolls, they and the DM will be comparing results to a number found in one of the game's manuals. That comparison will determine the action's outcome</p>
+
+          <p>This is a basic rundown on the game.</p>
 
           {/* <h2>History</h2>
           <ul className="about-game_main">
