@@ -16,11 +16,6 @@ export default class Header extends Component {
             <nav>
               <ul>
                 <li>
-                  <a href="#about-us">
-                    About Us
-                  </a>
-                </li>
-                <li>
                   <Link to="/monsters">
                     Monsters
                   </Link>
