@@ -8,9 +8,6 @@ export default class Monsters extends Component {
 
     this.state = {
       response: [],
-      name: [],
-      path: 'character/',
-      fileType: '.jpg',
     }
   }
 
@@ -31,7 +28,14 @@ export default class Monsters extends Component {
     return (
       <Fragment>
         <div className="monsterImages">
-            {images.map(el => <div className="monsterCard">
+          <div className="filterBy">
+            <select>
+              <option>Sort By</option>
+              <option>Size</option>x
+              <option>Type</option>
+              <option>Armor Class</option>
+            </select></div>
+          {images.map(el => <div className="monsterCard">
             <img src={el.path} alt="monsters"></img>
               <ul>
                 <li><h3>{el.name}</h3></li>
@@ -42,7 +46,7 @@ export default class Monsters extends Component {
                 <li>Hit Dice{el.hit_dice}</li>
                 <li>Challenge Rating{el.challenge_rating}</li>
               </ul>
-            </div>)}
+          </div>)}
         </div>
       </Fragment>
     );
