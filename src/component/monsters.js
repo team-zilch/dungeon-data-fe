@@ -30,7 +30,7 @@ export default class Monsters extends Component {
         <div className="monsterImages">
           <div className="filterBy">
             <select>
-              <option>Sort By</option>
+              <option>Filter By</option>
               <option>Size</option>x
               <option>Type</option>
               <option>Armor Class</option>
