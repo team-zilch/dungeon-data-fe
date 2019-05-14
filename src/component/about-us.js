@@ -33,27 +33,30 @@ class AboutUs extends Component {
   render() {
     return (
       <Fragment>
-        <div className="about-us_who">
-          <Who 
-          name = {this.state.david.name}
-          description = {this.state.david.description}
-          image = {this.state.david.image}
-          />
-          <Who 
-          name = {this.state.kush.name}
-          description = {this.state.kush.description}
-          image = {this.state.kush.image}
-          />
-          <Who 
-          name = {this.state.chai.name}
-          description = {this.state.chai.description}
-          image = {this.state.chai.image}
-          />
-          <Who 
-          name = {this.state.william.name}
-          description = {this.state.william.description}
-          image = {this.state.william.image}
-          />
+        <div className="about-us">
+          <h2>About Us</h2>
+          <div className="about-us_who">
+            <Who 
+            name = {this.state.david.name}
+            description = {this.state.david.description}
+            image = {this.state.david.image}
+            />
+            <Who 
+            name = {this.state.kush.name}
+            description = {this.state.kush.description}
+            image = {this.state.kush.image}
+            />
+            <Who 
+            name = {this.state.chai.name}
+            description = {this.state.chai.description}
+            image = {this.state.chai.image}
+            />
+            <Who 
+            name = {this.state.william.name}
+            description = {this.state.william.description}
+            image = {this.state.william.image}
+            />
+          </div>
         </div>
 
         <div>

@@ -8,10 +8,10 @@ import '../scss/core.scss'
 export default function App() {
   return (
     <Fragment>
-      <Header/>
-      <Hero />
-      <AboutUs />
-      <Footer />
+        <Header/>
+        <Hero />
+        <AboutUs />
+        <Footer />
     </Fragment>
   );
 }

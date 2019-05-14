@@ -1,3 +1,24 @@
+header {
+  h1 {
+    font-size: $font-size-header;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    font-family: $font-family-header;
+    font-size: $font-size-nav;
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+}
+
 .hero-image {
   height: 700px;
   width: 100%; 
@@ -12,7 +33,7 @@
 }
 
 .hero-image_container {
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
   padding-top: 400px;
 }
@@ -30,4 +51,3 @@
   color: $medieval-yellow;
   font-family: $font-family-header;
 }
-
