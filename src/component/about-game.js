@@ -4,18 +4,85 @@ export default class AboutGame extends Component {
   render () {
     return (
       <Fragment>
-        <h2>About Game</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nulla facilisi morbi tempus iaculis. Mi proin sed libero enim sed faucibus turpis. Pellentesque sit amet porttitor eget. Proin nibh nisl condimentum id venenatis. Habitant morbi tristique senectus et netus et. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Vitae congue eu consequat ac felis donec. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Purus sit amet volutpat consequat. Volutpat maecenas volutpat blandit aliquam etiam erat velit. At erat pellentesque adipiscing commodo elit at imperdiet. Accumsan in nisl nisi scelerisque eu.
+        <div className="about-game">
+          <h2>About the Game</h2>
+          <p>The first Dungeons & Dragons game was played   back when Gary Gygax and Dave Arneson chose to  personalize the massive battles of their fantasy   wargames with the exploits of individual heroes.  This inspiration became the first fantasy  roleplaying game, in which players are   characters in an ongoing fantasy story. This new  kind of game has become immensely popular over   the years, and D&D has grown to include many new  ways to vividly experience worlds of heroic  fantasy.</p>
 
-Arcu odio ut sem nulla pharetra diam. Lacus suspendisse faucibus interdum posuere lorem. Eu facilisis sed odio morbi quis. Ultrices sagittis orci a scelerisque purus semper. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Dictum sit amet justo donec enim diam vulputate. Fusce ut placerat orci nulla. In metus vulputate eu scelerisque felis imperdiet proin fermentum. Lectus nulla at volutpat diam ut venenatis tellus. Integer enim neque volutpat ac. Nec feugiat nisl pretium fusce id velit. Pellentesque dignissim enim sit amet venenatis urna. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque.
+          <p>The core of D&D is storytelling. You and your  friends tell a story together, guiding your  heroes through quests for treasure, battles with   deadly foes, daring rescues, courtly intrigue,  and much more. You can also explore the world of   Dungeons & Dragons through any of the novels  written by its fantasy authors, as well as   engaging board games and immersive video games.   All of these stories are part of D&D.</p>
 
-Nunc sed velit dignissim sodales ut eu sem. Enim blandit volutpat maecenas volutpat. Luctus venenatis lectus magna fringilla. Bibendum ut tristique et egestas quis. Pellentesque elit eget gravida cum sociis. Blandit libero volutpat sed cras ornare. Egestas erat imperdiet sed euismod nisi. Urna id volutpat lacus laoreet non curabitur. Quam pellentesque nec nam aliquam sem. Porta nibh venenatis cras sed felis eget velit aliquet sagittis. Vulputate ut pharetra sit amet aliquam id. Massa ultricies mi quis hendrerit dolor magna. Risus viverra adipiscing at in tellus integer feugiat scelerisque varius. Sodales neque sodales ut etiam sit amet nisl purus. Interdum posuere lorem ipsum dolor. Pretium nibh ipsum consequat nisl vel pretium lectus quam. In dictum non consectetur a erat nam.
+          <h2>How to Play</h2>
+          <p>Player must create a character. In (D&D), each character has a set of ability scores that make it unique. They roll a character by rolling dice, three six-sided dice for each ability, which gives a score of 3 to 18 for each one. To other stats that are important are Amor Class and Hit Points. These numbers affect how a character works in a range of classes, or types.</p>
+          <p>After the stats are generated a plyaer can then decide on a fantasy race (Human, Dwarf, Elf, Gnome, etc.), a class (Fighter, Mage, Thief, Druid, etc.), and an alignment which dictates how a player character interacts with the world.
+          </p>
 
-A diam sollicitudin tempor id eu nisl. Pretium viverra suspendisse potenti nullam. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. A pellentesque sit amet porttitor eget dolor. Tempor orci dapibus ultrices in iaculis nunc sed. Justo donec enim diam vulputate. Diam volutpat commodo sed egestas egestas fringilla phasellus. Faucibus vitae aliquet nec ullamcorper sit amet. Libero nunc consequat interdum varius sit. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin.
-
-Adipiscing tristique risus nec feugiat in fermentum. Nunc vel risus commodo viverra maecenas. Eu nisl nunc mi ipsum faucibus vitae. Vitae congue eu consequat ac felis donec. Turpis massa sed elementum tempus egestas sed sed risus. Vulputate ut pharetra sit amet aliquam. Aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis. Iaculis nunc sed augue lacus viverra vitae congue eu. Eros donec ac odio tempor orci dapibus. Vitae proin sagittis nisl rhoncus. Eget dolor morbi non arcu risus quis varius. Quam nulla porttitor massa id. Nibh sit amet commodo nulla facilisi nullam. Massa eget egestas purus viverra accumsan. Ullamcorper eget nulla facilisi etiam dignissim. Turpis egestas integer eget aliquet nibh praesent tristique. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Vel risus commodo viverra maecenas accumsan. Aliquet lectus proin nibh nisl condimentum id venenatis a. Ut porttitor leo a diam sollicitudin tempor id eu nisl.
-
-Scelerisque varius morbi enim nunc faucibus a pellentesque. Quisque egestas diam in arcu cursus euismod. Orci a scelerisque purus semper eget. Urna porttitor rhoncus dolor purus non enim praesent elementum. Vestibulum lorem sed risus ultricies tristique. Consectetur lorem donec massa sapien faucibus et. Tortor pretium viverra suspendisse potenti nullam ac tortor. Eget duis at tellus at urna condimentum. Dignissim diam quis enim lobortis scelerisque. Risus nec feugiat in fermentum posuere urna. Fermentum posuere urna nec tincidunt praesent semper feugiat. Commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae.</p>
+          {/* <h2>History</h2>
+          <ul className="about-game_main">
+            <li>
+              <h3>1967</h3>
+              <ul>
+                <li>
+                The International Federation of Wargaming (IFW), founded by Gary Gygax and others, provides a venue for wargame fans to exchange ideas and amateur game designs.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>1968</h3>
+              <ul>
+                <li>
+                Gygax hosts the first Lake Geneva Wargames Convention, or Gen Con, in the Horticultural Hall of his home town of Lake Geneva, Wisconsin, as an IFW event.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>1969</h3>
+              <ul className="about-game_sub">
+                <li>
+                Gygax meets Dave Arneson at the second Gen Con, and the two express a mutual interest in collaborating on game rules.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>1971</h3>
+              <ul className="about-game_sub">
+                <li>
+                Gygax meets Dave Arneson at the second Gen Con, and the two express a mutual interest in collaborating on game rules.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>1972</h3>
+              <ul className="about-game_sub">
+                <li>
+                Gygax meets Dave Arneson at the second Gen Con, and the two express a mutual interest in collaborating on game rules.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>1973</h3>
+              <ul className="about-game_sub">
+                <li>
+                Gygax meets Dave Arneson at the second Gen Con, and the two express a mutual interest in collaborating on game rules.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>1974</h3>
+              <ul className="about-game_sub">
+                <li>
+                Gygax meets Dave Arneson at the second Gen Con, and the two express a mutual interest in collaborating on game rules.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>1975</h3>
+              <ul className="about-game_sub">
+                <li>
+                Gygax meets Dave Arneson at the second Gen Con, and the two express a mutual interest in collaborating on game rules.
+                </li>
+              </ul>
+            </li>
+          </ul> */}
+        </div>
       </Fragment>
     );
   }

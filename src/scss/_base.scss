@@ -4,7 +4,7 @@ body {
   font-family: $font-family-body;
 }
 
-header {
+header, footer {
   background-image: radial-gradient($medieval-brown, black );
   width: 100%;
   margin: 0 auto;
