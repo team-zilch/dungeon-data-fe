@@ -13,6 +13,7 @@
 .about-us, .what, .why {
   width: 100%;
   text-align: center;
+  margin-top: 50px;
 
   h2 {
     text-decoration: underline;
@@ -21,8 +22,19 @@
 
 .about-us_who {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: space-around;
+
+  ul {
+    width: 500px;
+    margin-top: 50px;
+  }
+
+
+  p {
+    text-align: left;
+  }
 }
 
 .monsterImages {

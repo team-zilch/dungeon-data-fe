@@ -14,7 +14,7 @@ export default class AboutUs extends Component {
       },
       kush: {
         name: 'Kush',
-        description: 'My name is Kush Shrestha. I am a motivated self-starter who can successfully manage multiple projects and deadlines. I have bachelor’s degree in Mechanical Engineering from University of North Texas in Denton, Texas. I worked as a Mechanical Engineer for Winco Inc in Le Center, Minnesota where I designed, modeled and simulated new and existing generators using engineering principle. After working in Winco INC for couple years, I joined the Military where I was tactical power generation specialist and I primarily performed maintenance and repair on generators and internal combustion engines. While transitioning from military I wanted to work in IT field. I found out about this AWS Software Development Engineer apprenticeship program and it was exactly what I wanted to do. As a part of apprenticeship program, I am taking a course in Code Fellows to become a full stack Software Developer.',
+        description: 'My name is Kush Shrestha. I am a motivated self-starter who can successfully manage multiple projects and deadlines. I have bachelor’s degree in Mechanical Engineering from University of North Texas in Denton, Texas. I recently transition from military. While transitioning from military I wanted to work in IT field. I found out about this AWS Software Development Engineer apprenticeship program and it was exactly what I wanted to do. As a part of apprenticeship program, I am taking a course in Code Fellows to become a full stack Software Developer.',
         image: require( "../images/Kush.png" ),
       },
       chai: {
