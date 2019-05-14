@@ -1,17 +1,15 @@
 import React, {Fragment} from 'react';
-import Header from './header';
-import Hero from './hero';
-import AboutUs from './about-us'
-import Footer from './footer'
-import '../scss/core.scss'
+import Header from './header.js';
+import Main from './main.js';
+import Footer from './footer.js';
+import '../scss/core.scss';
 
 export default function App() {
   return (
     <Fragment>
         <Header/>
-        <Hero />
-        <AboutUs />
-        <Footer />
+        <Main/>
+        <Footer/>
     </Fragment>
   );
 }
