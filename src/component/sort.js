@@ -8,13 +8,10 @@ export default class Sort extends Component {
           <label>
             <h2>Sort:</h2>
           </label>
-          <select onChange={this.props.sort}>
-            <option value="">Sort By</option>
-            <option value="name">Name</option>
-            <option value="type">Type</option>
-            <option value="armor_class">Armor Class</option>
-            <option value="challenge_rating">Challenge Rating</option>
-          </select>
+          <button onClick={this.props.sort} value="name" type="name">Name</button>
+          <button onClick={this.props.sort} value="type" type="type">Type</button>
+          <button onClick={this.props.sort} value="armor_class" type="armor_class">Armor Class</button>
+          <button onClick={this.props.sort} value="challenge_rating" type="challenge_rating">Challenge Rating</button>
         </div>
       </Fragment>
     );

@@ -155,22 +155,20 @@ label {
   font-size: 20px;
 }
 
-select {
-  margin-left: 10px;
-  margin-top: 13px;
-  font-family: $font-size-nav;
-  font-size: 20px;
-  height: 30px;
-  padding: 30px;
-}
-
 .sort-container {
-  display: flex !important;
-  flex-direction: row;
-}
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 30px;
 
-option {
-  text-align: center;
+  button {
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-family: $font-family-header;
+  }
 }
 
 li {
