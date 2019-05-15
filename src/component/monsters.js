@@ -40,10 +40,10 @@ export default class Monsters extends Component {
               <div className="monsterCard-inner">
                 <div className="monsterCard-front">
                   <img src={el.path} alt="monsters"></img>
-                  <h3>{el.name}</h3>
+                  <h4>{el.name}</h4>
                 </div>
                 <div className="monsterCard-back">
-                  <h3>{el.name}</h3>
+                  <h4>{el.name}</h4>
                   <ul>
                     <li>Size: {el.size}</li>
                     <li>Type: {el.type}</li>
