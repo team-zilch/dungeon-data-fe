@@ -11,12 +11,18 @@
 }
 
 .about-us, .what, .why {
-  width: 100%;
+  width: 1200px;
   text-align: center;
   margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
 
   h2 {
     text-decoration: underline;
+  }
+
+  p {
+    text-align: left;
   }
 }
 
