@@ -43,14 +43,14 @@ export default class Monsters extends Component {
                   <h3>{el.name}</h3>
                 </div>
                 <div className="monsterCard-back">
+                  <h3>{el.name}</h3>
                   <ul>
-                    <li><h3>{el.name}</h3></li>
                     <li>Size: {el.size}</li>
                     <li>Type: {el.type}</li>
                     <li>Armor Class: {el.armor_class}</li>
-                    <li>Hit Points{el.hit_points}</li>
-                    <li>Hit Dice{el.hit_dice}</li>
-                    <li>Challenge Rating{el.challenge_rating} </li>
+                    <li>Hit Points: {el.hit_points}</li>
+                    <li>Hit Dice: {el.hit_dice}</li>
+                    <li>Challenge Rating: {el.challenge_rating} </li>
                   </ul>
                 </div>
               </div>

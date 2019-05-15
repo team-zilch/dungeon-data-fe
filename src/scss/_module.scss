@@ -134,6 +134,7 @@ header {
   background-color: $medieval-brown;
   color: white;
   transform: rotateY(180deg);
+<<<<<<< HEAD
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px){
@@ -146,4 +147,10 @@ header {
 
 @media only screen and (min-width: 960px){
   
+=======
+
+  li {
+    line-height: 22px;
+  }
+>>>>>>> 3cf5939a220ebce0a4e8675e03a4bf2b6b0ee7eb
 }
