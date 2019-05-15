@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import superagent from 'superagent';
 import Sort from './sort.js';
+import If from './if.js';
 
 export default class Monsters extends Component {
   constructor(props) {
@@ -15,7 +16,6 @@ export default class Monsters extends Component {
     console.log('componentDidMount');
     superagent.get('https://intense-waters-97587.herokuapp.com/monster')
       .then(response => {
-        console.log(response);
         this.setState({response: JSON.parse(response.text)});
       })
   }
@@ -32,6 +32,8 @@ export default class Monsters extends Component {
     this.setState({ response : sortedResponse });
   }
 
+
+
   render () {
     let images = [];
 
@@ -39,9 +41,7 @@ export default class Monsters extends Component {
     
     return (
       <Fragment>
-        if(this.state.response) {
-          <Sort monsterData={this.state.response} sort={this.sortResponse}/>
-        }
+        <If condition = {this.state.response.length}><Sort monsterData={this.state.response} sort={this.sortResponse}/></If>
         <div className="monsterImages">
           {images.map(el => <div className="monsterCard">
               <div className="monsterCard-inner">
