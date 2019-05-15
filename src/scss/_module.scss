@@ -86,9 +86,16 @@ header {
 .filterBy {
   width: 100%;
   padding: 10px 10px 0px 30px;
+  margin-left: 34px;
 
-  select{
-    width: 150px;
+  select {
+    width: 100px;
+    margin-left: 5px;
+  }
+
+  .submit {
+    margin-left: 10px;
+    width: 100px;
   }
 }
 
@@ -135,10 +142,33 @@ header {
   background-color: $medieval-brown;
   color: white;
   transform: rotateY(180deg);
+}
 
-  li {
-    line-height: 22px;
-  }
+label {
+  margin-left: 58px;
+  font-size: 20px;
+}
+
+select {
+  margin-left: 10px;
+  margin-top: 13px;
+  font-family: $font-size-nav;
+  font-size: 20px;
+  height: 30px;
+  padding: 30px;
+}
+
+.sort-container {
+  display: flex !important;
+  flex-direction: row;
+}
+
+option {
+  text-align: center;
+}
+
+li {
+  line-height: 22px;
 }
 
 .what{
