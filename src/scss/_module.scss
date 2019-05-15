@@ -75,6 +75,7 @@ header {
   img {
     padding-right: 30px;
     padding-top: 5px;
+    height: 100px;
   }
 }
 
@@ -164,4 +165,17 @@ select {
 
 option {
   text-align: center;
+}
+
+  li {
+    line-height: 22px;
+  }
+}
+
+.what{
+  padding: 0px 110px;
+}
+
+.why{
+  padding: 0px 110px;
 }

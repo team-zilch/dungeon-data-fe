@@ -1,3 +1,5 @@
+
+
 body {
   // background-color: $medieval-yellow;
   background-image: radial-gradient($medieval-yellow 60%, $medieval-brown);
@@ -30,6 +32,11 @@ h2, h3 {
   margin: 15px 0;
 }
 
+h4{
+  font-size: $font-monster-name;
+  padding: 10px 0px 5px 0px;
+}
+
 p {
   font-size: 18px;
   padding-bottom: 30px;
@@ -47,4 +54,16 @@ nav {
   a:hover {
     color: black;
   }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 959px){
+  
+}
+
+@media only screen and (min-width: 960px){
+  
 }
