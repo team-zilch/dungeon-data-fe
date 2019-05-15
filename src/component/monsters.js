@@ -36,10 +36,12 @@ export default class Monsters extends Component {
     let images = [];
 
     this.state.response.map(el => images.push({name: el.name, path: `characters/${el.name}.jpg`, size: el.size, type: el.type, armor_class: el.armor_class, hit_points: el.hit_points, hit_dice:el.hit_dice, challenge_rating: el.challenge_rating}));
-
+    
     return (
       <Fragment>
-        <Sort monsterData={this.state.response} sort={this.sortResponse}/>
+        if(this.state.response) {
+          <Sort monsterData={this.state.response} sort={this.sortResponse}/>
+        }
         <div className="monsterImages">
           {images.map(el => <div className="monsterCard">
               <div className="monsterCard-inner">

@@ -142,3 +142,26 @@ header {
   color: white;
   transform: rotateY(180deg);
 }
+
+label {
+  margin-left: 58px;
+  font-size: 20px;
+}
+
+select {
+  margin-left: 10px;
+  margin-top: 13px;
+  font-family: $font-size-nav;
+  font-size: 20px;
+  height: 30px;
+  padding: 30px;
+}
+
+.sort-container {
+  display: flex !important;
+  flex-direction: row;
+}
+
+option {
+  text-align: center;
+}
