@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import superagent from 'superagent';
+import Sort from './sort.js';
 // import * as images from '../images/characters';
 
 export default class Monsters extends Component {
@@ -27,14 +28,8 @@ export default class Monsters extends Component {
 
     return (
       <Fragment>
+        <Sort monsterData = {this.state.response}/>
         <div className="monsterImages">
-          <div className="filterBy">
-            <select>
-              <option>Filter By</option>
-              <option>Size</option>x
-              <option>Type</option>
-              <option>Armor Class</option>
-            </select></div>
           {images.map(el => <div className="monsterCard">
             <img src={el.path} alt="monsters"></img>
               <ul>

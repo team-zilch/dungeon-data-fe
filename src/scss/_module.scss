@@ -84,8 +84,15 @@ header {
 .filterBy {
   width: 100%;
   padding: 10px 10px 0px 30px;
+  margin-left: 34px;
 
-  select{
-    width: 150px;
+  select {
+    width: 100px;
+    margin-left: 5px;
+  }
+
+  .submit {
+    margin-left: 10px;
+    width: 100px;
   }
 }
