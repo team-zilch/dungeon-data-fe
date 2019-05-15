@@ -134,4 +134,8 @@ header {
   background-color: $medieval-brown;
   color: white;
   transform: rotateY(180deg);
+
+  li {
+    line-height: 22px;
+  }
 }
