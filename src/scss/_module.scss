@@ -76,6 +76,7 @@ header {
     padding-right: 30px;
     padding-top: 5px;
     height: 100px;
+    padding-bottom: 30px;
   }
 }
 
@@ -139,9 +140,14 @@ header {
 
 /* Style the back side */
 .monsterCard-back {
-  background-color: $medieval-brown;
-  color: white;
+  background-image: radial-gradient($medieval-brown, black );
+  color: $medieval-yellow;
   transform: rotateY(180deg);
+}
+
+.monsterCard-header {
+  color: $medieval-darkbrown;
+
 }
 
 label {
