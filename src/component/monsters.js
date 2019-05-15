@@ -47,7 +47,7 @@ export default class Monsters extends Component {
               <div className="monsterCard-inner">
                 <div className="monsterCard-front">
                   <img src={el.path} alt="monsters"></img>
-                  <h4>{el.name}</h4>
+                  <h4 className="monsterCard-header">{el.name}</h4>
                 </div>
                 <div className="monsterCard-back">
                   <h4>{el.name}</h4>
