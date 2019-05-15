@@ -1,3 +1,5 @@
+
+
 body {
   // background-color: $medieval-yellow;
   background-image: radial-gradient($medieval-yellow 60%, $medieval-brown);
@@ -47,4 +49,16 @@ nav {
   a:hover {
     color: black;
   }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 959px){
+  
+}
+
+@media only screen and (min-width: 960px){
+  
 }
