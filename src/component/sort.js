@@ -1,30 +1,19 @@
 import React, { Component, Fragment } from 'react';
 
 export default class Sort extends Component {
-
-  handleSubmit = event => {
-    event.preventDefault();
-  }
-
-  handleSize = event => {
-    console.log('size');
-  }
-
   render() {
     return (
       <Fragment>
-        <form className="filterBy" onSubmit={this.handleSubmit}>
           <label>
             Sort the monster by features:
-            <select onChange={this.handleChange}>
-              <option value="sortBy">Sort By</option>
-              <option onChange={this.handleSize}>Size</option>
+            <select onChange={this.props.sort}>
+              <option value="">Sort By</option>
+              <option value="name">Name</option>
               <option value="type">Type</option>
-              <option value="armorClass">Class</option>
+              <option value="armor_class">Armor Class</option>
+              <option value="challenge_rating">Challenge Rating</option>
             </select>
-            <input className="submit" type="submit" value="Submit" />
           </label>
-        </form>
       </Fragment>
     );
   }

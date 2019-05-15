@@ -1,7 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import superagent from 'superagent';
 import Sort from './sort.js';
-// import * as images from '../images/characters';
 
 export default class Monsters extends Component {
   constructor(props) {
@@ -21,6 +20,18 @@ export default class Monsters extends Component {
       })
   }
 
+  sortResponse = (event) => {
+    event.preventDefault();
+    let sortValue = event.target.value;
+    let sortedResponse = [];
+    if(typeof sortValue === 'string'){
+      sortedResponse = this.state.response.sort((a, b) => (a[sortValue] > b[sortValue]) ? 1 : -1);
+    } else {
+      sortedResponse = this.state.response.sort((a, b) => a - b);
+    }
+    this.setState({ response : sortedResponse });
+  }
+
   render () {
     let images = [];
 
@@ -28,7 +39,7 @@ export default class Monsters extends Component {
 
     return (
       <Fragment>
-        <Sort monsterData = {this.state.response}/>
+        <Sort monsterData={this.state.response} sort={this.sortResponse}/>
         <div className="monsterImages">
           {images.map(el => <div className="monsterCard">
               <div className="monsterCard-inner">
@@ -49,18 +60,6 @@ export default class Monsters extends Component {
                 </div>
               </div>
             </div>)}
-          {/* {images.map(el => <div className="monsterCard">
-            <img src={el.path} alt="monsters"></img>
-              <ul>
-                <li><h3>{el.name}</h3></li>
-                <li>Size: {el.size}</li>
-                <li>Type: {el.type}</li>
-                <li>Armor Class: {el.armor_class}</li>
-                <li>Hit Points{el.hit_points}</li>
-                <li>Hit Dice{el.hit_dice}</li>
-                <li>Challenge Rating{el.challenge_rating}</li>
-              </ul>
-          </div>)} */}
         </div>
       </Fragment>
     );
