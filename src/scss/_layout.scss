@@ -11,7 +11,6 @@
 }
 
 .about-us, .what, .why {
-  width: 1200px;
   text-align: center;
   margin-top: 50px;
   margin-right: auto;
@@ -76,16 +75,11 @@
   }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px){
-
-}
-
-@media only screen and (min-width: 767px) and (max-width: 959px){
-  
-}
-
-@media only screen and (min-width: 960px){
-  
+footer{
+  text-align: center;
+  p{
+    padding: 30px 0px;
+  }
 }
 
 /* From Chris Coyer https://css-tricks.com/couple-takes-sticky-footer/ for sticky footer */
