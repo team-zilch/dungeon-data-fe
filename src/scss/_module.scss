@@ -183,10 +183,17 @@ li {
   line-height: 22px;
 }
 
-.what{
-  padding: 0px 11vw;
+.what, .why, .events {
+  padding: 0px 30px;
 }
 
-.why{
-  padding: 0px 11vw;
+.event-items {
+  a {
+    text-align: left;
+    color: $medieval-brown;
+  }
+
+  a:hover {
+    color: $medieval-darkbrown;
+  }
 }
