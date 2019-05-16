@@ -28,13 +28,13 @@ version 2.0.0
   Deploy to Heroku and point DN to www.dungeondata.org
 
 
-##Description: 
+## Description: 
   This application will serve as a user hub for dungeon masters to be able to obtain the most up to date monster information on playing cards.The user will be presented with all monster cards and have access to instructions about the game. The user will also be presented with Dungeon and Dragons events.. 
 
-##Problem Domain:
+## Problem Domain:
   One of the big problems with card-based games is that as cards are updated, users are required to buy new cards in order to keep up to date with their monsters’ abilities. This application will solve that problem by pulling current information from the API and displaying up to date monster information in the form of digital cards which the user can flip through. 
 
-##User stories
+## User stories
   MVP User Stories
     As a user, I'd like to find a welcome page that is clearly designed so I can find the information I am looking for.
     As a user, I'd like to be able to easily find information about the creators of the application.
@@ -46,7 +46,7 @@ version 2.0.0
     As a user, I’d like to know about current and upcoming events – google api for user location
     As a user, I'd like to be able to filter the cards by abilities or other monster details.
   
-##Stretch goals
+## Stretch goals
   Current Events/news
   Sort
   Filter
