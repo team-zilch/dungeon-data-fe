@@ -1,5 +1,5 @@
 
-##Project Name: Dungeon Data
+## Project Name: Dungeon Data
 
 ## Developers: 
 David Marchante, 
@@ -10,8 +10,6 @@ William Fritts
 ##
 Dungeon Data Organization
 https://github.com/team-zilch
-
-
 
 Version 1.0.0
   Create front end using react
@@ -42,7 +40,7 @@ version 2.0.0
     As a user, I'd like to have live updated cards for the dungeon master to refer to during game play versus flipping through cards.
     As a user, I'd like to be able to sort cards. 
 
-#Stretch Goal User Stories 
+# Stretch Goal User Stories 
     As a user, I’d like to know about current and upcoming events – google api for user location
     As a user, I'd like to be able to filter the cards by abilities or other monster details.
   
