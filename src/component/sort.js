@@ -6,7 +6,7 @@ export default class Sort extends Component {
       <Fragment>
         <div className="sort-container">
           <label>
-            <h2>Sort:</h2>
+            <h2>Sort By:</h2>
           </label>
           <button onClick={this.props.sort} value="name" type="name">Name</button>
           <button onClick={this.props.sort} value="type" type="type">Type</button>
