@@ -21,7 +21,7 @@ export default class Events extends Component {
   }
 
   render() {
-    let eventItems = this.state.events.map(event => <Fragment><li><h3>{event.event_name}</h3></li><li><p>{event.summary} <a href={event.link}>Link to Event</a></p></li></Fragment>);
+    let eventItems = this.state.events.map(event => <Fragment><li><h3>{event.event_name}</h3></li><li><p>{event.summary} <a target="_blank" href={event.link}>Link to Event</a></p></li></Fragment>);
     
     return (
       <ul className="event-items">
