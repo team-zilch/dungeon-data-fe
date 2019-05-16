@@ -8,42 +8,39 @@ export default class Monsters extends Component {
     super(props);
 
     this.state = {
-      response: [],
+      monsters: [],
     }
   }
 
   componentDidMount() {
-    console.log('componentDidMount');
     superagent.get('https://intense-waters-97587.herokuapp.com/monster')
       .then(response => {
-        this.setState({response: JSON.parse(response.text)});
+        this.setState({monsters: JSON.parse(response.text)});
       })
   }
 
-  sortResponse = (event) => {
+  sortMonsters = (event) => {
     event.preventDefault();
     let sortValue = event.target.value;
-    let sortedResponse = [];
+    let sortedMonsters = [];
     if(typeof sortValue === 'string'){
-      sortedResponse = this.state.response.sort((a, b) => (a[sortValue] > b[sortValue]) ? 1 : -1);
+      sortedMonsters = this.state.monsters.sort((a, b) => (a[sortValue] > b[sortValue]) ? 1 : -1);
     } else {
-      sortedResponse = this.state.response.sort((a, b) => a - b);
+      sortedMonsters = this.state.monsters.sort((a, b) => a - b);
     }
-    this.setState({ response : sortedResponse });
+    this.setState({ monsters : sortedMonsters });
   }
 
-
-
   render () {
-    let images = [];
+    let monstersWithImages = [];
 
-    this.state.response.map(el => images.push({name: el.name, path: `characters/${el.name}.jpg`, size: el.size, type: el.type, armor_class: el.armor_class, hit_points: el.hit_points, hit_dice:el.hit_dice, challenge_rating: el.challenge_rating}));
+    this.state.monsters.map(el => monstersWithImages.push({name: el.name, path: `characters/${el.name}.jpg`, size: el.size, type: el.type, armor_class: el.armor_class, hit_points: el.hit_points, hit_dice:el.hit_dice, challenge_rating: el.challenge_rating}));
     
     return (
       <Fragment>
-        <If condition = {this.state.response.length}><Sort monsterData={this.state.response} sort={this.sortResponse}/></If>
+        <If condition = {this.state.monsters.length}><Sort monsterData={this.state.monsters} sort={this.sortMonsters}/></If>
         <div className="monsterImages">
-          {images.map(el => <div className="monsterCard">
+          {monstersWithImages.map(el => <div className="monsterCard">
               <div className="monsterCard-inner">
                 <div className="monsterCard-front">
                   <img src={el.path} alt="monsters"></img>

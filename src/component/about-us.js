@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import Who from './who';
+import Events from './events';
 
 export default class AboutUs extends Component {
 
@@ -69,6 +70,12 @@ export default class AboutUs extends Component {
           <p>One of the big problems with card-based games is that as cards are updated, users are required to buy new cards in order to keep up to date with their monsters’ abilities. This application will solve that problem by pulling current information from the API and displaying up to date monster information in the form of digital cards which the user can 'flip' through.</p>
         </div>
 
+        <div className="events">
+          <h2>Events</h2>
+          <div className="events-container">
+            <Events/>
+          </div>
+        </div>
       </Fragment>
     );
   }
